@@ -1,0 +1,56 @@
+
+
+ <form #postForm="ngForm" (ngSubmit)="onCreatePost(postForm.value)">
+<div class="row">
+    
+    <div class="col-lg-4"></div>
+  
+        <div class="col-lg-4 centerDiv">
+            <div class="form-group">
+                <img src="assets/e_logo.png" alt="">
+            </div>
+            <div class="form-group">
+                <label for="">First Name</label>
+                <input class="form-control"  ngModel type="text" name="name" placeholder="Enter Your Email" id="">
+            </div>
+            <div class="form-group">
+                <label for="">Last Name</label>
+                <input class="form-control"  ngModel type="text" name="lastname" placeholder="Enter Your Email" id="">
+            </div>
+            <div class="form-group">
+                <label for="">User Email</label>
+                <input class="form-control"  ngModel type="email" name="email" placeholder="Enter Your Email" id="">
+            </div>
+            <div class="form-group">
+                <label for="">User Password</label>
+                <input class="form-control"  ngModel  type="password" name="password" placeholder="Enter Your Password" id="">
+            </div>
+            <div class="form-group">
+                <label for="">Address</label>
+                <input class="form-control"  ngModel type="text" name="address" placeholder="Enter Your Password" id="">
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">
+                    Register
+                </button>
+                <br>
+        
+                <br>
+                <!-- <p>
+                    OR
+                </p>
+                <a routerLink="/register" class="btn btn-warning">
+                    Register
+                </a> -->
+
+            </div>
+
+      
+    </div>
+    
+    <div class="col-lg-4"></div>
+
+</div>
+<img src="cTNJ5wqmUBh1eIatACAmGYbz2I93" alt="t-shirt">
+</form>
+   
